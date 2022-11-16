@@ -323,7 +323,7 @@ void archivos()
 	ofstream archivo; //clase ifstream para leer archivos
 	string nombrearchivo;
 
-	nombrearchivo = "GamePlanet";
+	nombrearchivo = "GamePlanet.txt";
 
 	archivo.open(nombrearchivo.c_str(), ios::out);
 
